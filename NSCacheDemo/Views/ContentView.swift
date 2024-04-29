@@ -15,7 +15,8 @@ struct ContentView: View {
         Text("test")
         List(photoVM.photos) { photo in
             HStack{
-                AsyncImage(url: URL(string: photo.thumbnailUrl))
+//                AsyncImage(url: URL(string: photo.thumbnailUrl))
+                URLImageView(url: photo.thumbnailUrl)
                 Text(photo.title)
             }
         }

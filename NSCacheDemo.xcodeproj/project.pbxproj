@@ -14,6 +14,8 @@
 		CD2A0CBB2BDC60E300261E5F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A0CBA2BDC60E300261E5F /* Photo.swift */; };
 		CD2A0CBD2BDC617900261E5F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A0CBC2BDC617900261E5F /* NetworkService.swift */; };
 		CD2A0CC32BDC681B00261E5F /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A0CC22BDC681B00261E5F /* PhotoViewModel.swift */; };
+		CDF6A5242BE05C9D008B8C45 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6A5232BE05C9D008B8C45 /* ImageLoader.swift */; };
+		CDF6A5262BE05ECB008B8C45 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6A5252BE05ECB008B8C45 /* URLImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CD2A0CBA2BDC60E300261E5F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		CD2A0CBC2BDC617900261E5F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		CD2A0CC22BDC681B00261E5F /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		CDF6A5232BE05C9D008B8C45 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CDF6A5252BE05ECB008B8C45 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CD2A0CBC2BDC617900261E5F /* NetworkService.swift */,
+				CDF6A5232BE05C9D008B8C45 /* ImageLoader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				CD2A0CAE2BDC609D00261E5F /* ContentView.swift */,
+				CDF6A5252BE05ECB008B8C45 /* URLImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF6A5262BE05ECB008B8C45 /* URLImageView.swift in Sources */,
 				CD2A0CBB2BDC60E300261E5F /* Photo.swift in Sources */,
 				CD2A0CAF2BDC609D00261E5F /* ContentView.swift in Sources */,
+				CDF6A5242BE05C9D008B8C45 /* ImageLoader.swift in Sources */,
 				CD2A0CBD2BDC617900261E5F /* NetworkService.swift in Sources */,
 				CD2A0CAD2BDC609D00261E5F /* NSCacheDemoApp.swift in Sources */,
 				CD2A0CC32BDC681B00261E5F /* PhotoViewModel.swift in Sources */,
